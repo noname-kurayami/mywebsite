@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.nav-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 28px;
+}
+.btt {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 28px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.body-container {
+    background-image: url(images/pol.jpg);
+    padding: 20px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.main-image {
+    width: 70%;
+    background-color: #f5f5f5;
+}
+.main-image img{
+    width: 50%;
+}
+.sidebar {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+}
+.sidebar img {
+    width: calc(50% - 10px);
+    height: auto;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    width: 95.%;
+    text-align: center;
+}
+.text a {
+    color: #f90;
+    text-decoration: none;
+}
+h2{
+    color: #fff;
+}
+.services-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f90;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f90;
+}
+.first img{
+    width: 150px;
+    height: 100px;
+}
+.two img{
+    width: 150px;
+    height: 100px;
+}
+.down-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+}
